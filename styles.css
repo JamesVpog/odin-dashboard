@@ -1,0 +1,38 @@
+body {
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 8px;
+  margin: 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9Faf8;
+}
+
+.header-links {
+  font-size: 18px;
+  color: #E5e7eb;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.hero,
+.footer {
+  background-color: #1F2937;
+}
