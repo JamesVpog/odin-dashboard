@@ -94,6 +94,35 @@ ul {
   background-color: #1F2937;
 }
 
+/* call to action */
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  color: white;
+  background-color: #3882f6;
+  padding: 10px 64px;
+  border-radius: 25px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.container .right button {
+  color: white;
+  font-weight: bold;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 4px 20px;
+  box-shadow: none;
+  border: 2px solid white;
+}
+
 .footer {
   margin-top: auto;
   font-size: 18px;
