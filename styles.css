@@ -7,6 +7,7 @@ body {
   margin: 0px;
   min-height: 100vh;
   box-sizing: border-box;
+  gap: 32px;
 }
 
 ul {
@@ -94,6 +95,32 @@ ul {
   background-color: #1F2937;
 }
 
+/* quote */
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  max-width: 600px;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+}
+
+.author {
+  font-weight: bolder;
+  align-self: flex-end;
+}
+
 /* call to action */
 
 .action {
@@ -123,6 +150,9 @@ ul {
   border: 2px solid white;
 }
 
+/***********************************/
+
+
 .footer {
   margin-top: auto;
   font-size: 18px;
@@ -130,4 +160,5 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 16px 16px;
 }
